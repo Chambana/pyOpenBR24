@@ -22,8 +22,8 @@ def reassemble_packet(fragment_list):
     return b[8:packet_length]
 
 if __name__=="__main__":
-    interface_ip  = '192.168.8.2'
-    #interface_ip  = None
+    #interface_ip  = '192.168.8.2'
+    interface_ip  = None
 
     scale = 1.0
     mcastsocket = {}
